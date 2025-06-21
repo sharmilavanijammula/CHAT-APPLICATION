@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart WhatsApp Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="mode-toggle left">
+    <button id="toggleMode">🌗</button>
+  </div>
+  <div class="container">
+    <div class="sidebar">
+      <h3>Contacts</h3>
+      <ul id="userList">
+        <!-- Removed MetaAI label -->
+      </ul>
+    </div>
+    <div class="chat">
+      <div id="messages" class="messages"></div>
+      <form id="chatForm" enctype="multipart/form-data">
+        <input id="messageInput" autocomplete="off" placeholder="Type your message..." />
+        <button type="button" id="emojiBtn">😄</button>
+        <button type="button" id="micBtn">🎤</button>
+        <input type="file" id="fileInput" style="display:none" multiple />
+        <button type="button" id="fileBtn">📎</button>
+        <button type="submit">Send</button>
+      </form>
+      <div id="filePreview"></div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
