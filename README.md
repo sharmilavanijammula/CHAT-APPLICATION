@@ -18,4 +18,5 @@ Smart WhatsApp-Style Chat Application is a modern, feature-rich real-time messag
 
 # OUTPUT
 
+![Image](https://github.com/user-attachments/assets/6cfba902-ff0b-48cb-8ba5-3ccbd4eae44c)
 
